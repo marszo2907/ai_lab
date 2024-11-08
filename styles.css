@@ -1,0 +1,51 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    display: flex;
+    width: 100%;
+}
+
+#left-panel, #right-panel {
+    width: 50%;
+    position: relative;
+}
+
+#left-panel {
+    margin-right: 10px; /* Dodano odstęp między panelami */
+}
+
+#map, #right-panel {
+    width: 100%;
+    height: 500px;
+}
+
+#locate-btn, #generate-btn {
+    margin: 10px 5px;
+}
+
+#pieces-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.piece {
+    width: 25%;
+    box-sizing: border-box;
+}
+
+.dropzone {
+    position: absolute;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+#message {
+    text-align: center;
+    font-size: 24px;
+    color: green;
+    margin-top: 20px;
+}

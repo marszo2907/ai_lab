@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Mapa z Puzzlami</title>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.css' rel='stylesheet' />
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div id="container">
+    <div id="left-panel">
+        <div id="map"></div>
+        <button id="locate-btn">Zlokalizuj mnie</button>
+        <button id="generate-btn">Wygeneruj raster</button>
+    </div>
+    <div id="right-panel"></div>
+</div>
+<div id="pieces-container"></div>
+<div id="message"></div>
+
+<script src='https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.js'></script>
+<script src="script.js"></script>
+</body>
+</html>
