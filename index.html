@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lista ToDo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="todo-app">
+  <h1>Lista ToDo</h1>
+
+  <input type="text" id="search" placeholder="Szukaj zadań..." minlength="2">
+
+  <ul id="todo-list"></ul>
+
+  <div class="add-task">
+    <input type="text" id="new-task-name" placeholder="Nazwa zadania" minlength="3" maxlength="255">
+    <input type="date" id="new-task-date">
+    <button id="add-task-btn">Dodaj zadanie</button>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
