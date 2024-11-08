@@ -2,6 +2,6 @@
 
 .idea
 
-.docx
-.odt
-.pdf
+*.docx
+*.odt
+*.pdf
